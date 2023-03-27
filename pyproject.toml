@@ -10,7 +10,7 @@ name = "tree-scout"
 dynamic = ["version"]
 readme = "README.md"
 license = {text = 'MIT'}
-description = "tree-scout"
+description = "tree-scout enables quick analyses on big phylogenetic trees"
 requires-python = ">=3.7"
 dependencies = []
 
