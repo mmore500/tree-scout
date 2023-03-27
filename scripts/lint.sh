@@ -1,5 +1,5 @@
 #!/bin/sh -ex
 
-mypy python_project_template tests
-black python_project_template tests --check
-ruff python_project_template tests scripts
+mypy tree_scout tests
+black tree_scout tests --check
+ruff tree_scout tests scripts

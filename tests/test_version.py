@@ -1,4 +1,4 @@
-from python_project_template import __version__
+from tree_scout import __version__
 
 
 def test_version() -> None:

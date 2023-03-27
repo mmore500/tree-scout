@@ -1,4 +1,4 @@
 #!/bin/sh -ex
 
-black python_project_template tests scripts
-ruff check python_project_template tests scripts --fix
+black tree_scout tests scripts
+ruff check tree_scout tests scripts --fix
