@@ -23,6 +23,7 @@ test = [
     "pytest>=6.2.5",
     "coverage>=6.1.1",
     "pytest-cov>=3.0.0",
+    "numpy>=1.21.0",
 ]
 dev = [
     "mypy>=0.910",
