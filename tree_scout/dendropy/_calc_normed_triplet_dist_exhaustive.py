@@ -19,6 +19,9 @@ def calc_normed_triplet_dist_exhaustive(
         return np.nan
 
     return 1.0 - statistics.mean(
-        classify_triplet_topology(first, second, triplet)
+        int(
+            classify_triplet_topology(first, triplet)
+            == classify_triplet_topology(second, triplet)
+        )
         for triplet in it.combinations(taxa, r=3)
     )
